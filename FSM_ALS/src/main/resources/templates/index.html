@@ -1,0 +1,43 @@
+!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>FSM_ST_M</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script type ="text/javascript" src="/js/index.js"></script>
+</head>
+<body>
+<div>
+    <div class="table-tab">
+    <h4>FSM PANEL</h4>
+    <div class="card-body text-center">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Statement</th>
+                <th>Mode</th>
+                <th>Water</th>
+                <th>Heating</th>
+                <th>Cold mode</th>
+                <th>Hot mode</th>
+                <th>Start</th>
+                </tr>
+            </thead>
+            <tbody id = "fsm">
+            </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="for_button">
+    <div>
+        <button onclick="ON()">ON</button>
+        <button onclick="OFF()">OFF</button>
+    </div>
+</div>
+</body>
+</html>
